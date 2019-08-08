@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46480AA922FC3A47005A361A /* SocialMediaListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46480AA822FC3A47005A361A /* SocialMediaListView.swift */; };
 		46661EC522F9B3F40068E6B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46661EC422F9B3F40068E6B4 /* AppDelegate.swift */; };
 		46661EC722F9B3F40068E6B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46661EC622F9B3F40068E6B4 /* SceneDelegate.swift */; };
 		46661EC922F9B3F40068E6B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46661EC822F9B3F40068E6B4 /* ContentView.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46480AA822FC3A47005A361A /* SocialMediaListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaListView.swift; sourceTree = "<group>"; };
 		46661EC122F9B3F40068E6B4 /* Landmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46661EC422F9B3F40068E6B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46661EC622F9B3F40068E6B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				46661ECF22F9B3F60068E6B4 /* LaunchScreen.storyboard */,
 				46661ED222F9B3F60068E6B4 /* Info.plist */,
 				46661ECC22F9B3F60068E6B4 /* Preview Content */,
+				46480AA822FC3A47005A361A /* SocialMediaListView.swift */,
 			);
 			path = Landmark;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			files = (
 				46661EC522F9B3F40068E6B4 /* AppDelegate.swift in Sources */,
 				46661ED922F9BA070068E6B4 /* CircleImage.swift in Sources */,
+				46480AA922FC3A47005A361A /* SocialMediaListView.swift in Sources */,
 				46661EC722F9B3F40068E6B4 /* SceneDelegate.swift in Sources */,
 				46661EDB22F9BCE40068E6B4 /* MapView.swift in Sources */,
 				46661EC922F9B3F40068E6B4 /* ContentView.swift in Sources */,
