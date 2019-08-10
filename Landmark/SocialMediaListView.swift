@@ -12,14 +12,14 @@ import SafariServices
 struct Account: Identifiable {
     var id: Int
     
-    let image, name, username: String
+    let image, name, username, url: String
 }
 
 struct SocialMediaListView: View {
     let accounts: [Account] = [
-           .init(id: 0, image: "github", name: "Github", username: "vatsalkul"),
-           .init(id: 1, image: "linkedin", name: "LinkedIn", username: "vatsalkulshreshtha"),
-          .init(id: 2, image: "instagram", name: "Instagram", username: "vatsal_kulshreshtha")
+           .init(id: 0, image: "github", name: "Github", username: "vatsalkul", url: "https://github.com/vatsalkul"),
+           .init(id: 1, image: "linkedin", name: "LinkedIn", username: "vatsalkulshreshtha", url: "https://www.linkedin.com/in/vatsal-kulshreshtha-4251375a"),
+           .init(id: 2, image: "instagram", name: "Instagram", username: "vatsal_kulshreshtha", url: "http://instagram.com/vatsal_kulshreshtha/")
        ]
     var body: some View {
    
@@ -33,6 +33,13 @@ struct SocialMediaListView: View {
                             .font(.headline)
                         Text("Username: \(acc.username)")
                             .font(.subheadline)
+                        Button(action: {
+                            if let url = URL(string: acc.url) {
+                                UIApplication.shared.open(url)
+                            }
+                            }){
+                                Text("")
+                            }
                     }
                 }
             }
