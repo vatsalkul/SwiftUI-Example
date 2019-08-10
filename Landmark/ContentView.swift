@@ -29,7 +29,7 @@ struct ContentView: View {
             
             
         SocialMediaListView()
-    }
+    }.edgesIgnoringSafeArea(.top)
        
     
     }
