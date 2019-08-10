@@ -5,10 +5,10 @@ SwiftUI is a user interface toolkit offered by Apple that lets us design apps in
 
 ### Screenshots:
 #### Light Mode
-<img src="https://user-images.githubusercontent.com/30840527/62550366-c3685080-b887-11e9-8594-20e51b756273.PNG" width="200">
+<img src="https://user-images.githubusercontent.com/30840527/62820709-923c9880-bb85-11e9-98ef-cb671ffa9203.png" width="200">
 
 #### Dark Mode
-<img src="https://user-images.githubusercontent.com/30840527/62550457-ebf04a80-b887-11e9-90b7-1988aae9942a.PNG" width="200">
+<img src="https://user-images.githubusercontent.com/30840527/62820716-a5e7ff00-bb85-11e9-939e-ab3051476b72.png" width="200">
 
 ## How to use
 Just download source code and open project in Xcode 11 beta.
